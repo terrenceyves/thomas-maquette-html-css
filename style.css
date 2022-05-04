@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Raleway:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 * {
   margin: 0;
@@ -14,6 +14,16 @@ header {
   padding: 20px;
 }
 
+main {
+  padding: 0px 50px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 ul {
   list-style: none;
 }
@@ -24,7 +34,9 @@ a {
 }
 
 #logo {
-  height: 50px;
+  height: 40px;
+  padding-left: 50px;
+  padding-top: 20px;
 }
 #navbar {
   display: flex;
@@ -36,4 +48,35 @@ a {
   width: 250px;
   justify-content: space-between;
   font-weight: bold;
+}
+
+#searchbar {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  width: 500px;
+  background: rgb(0, 4, 255);
+}
+
+#searchbar:nth-child(1n) {
+  background-color: rgb(177, 177, 177);
+  width: 20px;
+  border-radius: 20px;
+  margin-right: 100px;
+  padding: 0px 10px;
+  position: relative;
+  left: 500px;
+}
+
+#searchbar:nth-child(2n) {
+  margin-left: 200px;
+  padding-left: 200px;
+  position: relative;
+  left: 500px;
+}
+#searchbar:nth-child(3n) {
+  margin-left: 20px;
+  padding-left: 200px;
+  position: relative;
+  left: 500px;
 }
