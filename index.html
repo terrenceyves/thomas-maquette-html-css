@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Booki</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <img id="logo" src="./assets/logo/Booki.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul id="navbar">
+          <li>
+            <a href="#">Hébergement</a>
+          </li>
+          <li>
+            <a href="#">Activités</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <div>
+            <p>&#9906;</p>
+            <form action="/action.php" method=post">
+                <input type="text" placeholder="Marseille, France 2">
+            </form>
+            <input type="submit" value="Rechercher">
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Raleway:wght@100;300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo {
+  height: 50px;
+}
+#navbar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  font-size: 15px;
+  padding: 20px;
+  margin-right: 50px;
+  width: 250px;
+  justify-content: space-between;
+  font-weight: bold;
+}
