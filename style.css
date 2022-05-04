@@ -19,7 +19,7 @@ main {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
   margin-bottom: 5px;
 }
@@ -52,31 +52,99 @@ a {
 
 #searchbar {
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
   position: relative;
-  width: 500px;
-  background: rgb(0, 4, 255);
+  border-spacing: 50px;
+  height: 40px;
 }
 
-#searchbar:nth-child(1n) {
-  background-color: rgb(177, 177, 177);
+#search1 {
+  display: flex;
   width: 20px;
-  border-radius: 20px;
-  margin-right: 100px;
-  padding: 0px 10px;
-  position: relative;
-  left: 500px;
+  border-radius: 10px 0px 0px 10px;
+  margin-right: 10px;
+  padding: 0px 15px;
+  position: absolute;
+  height: 42px;
+  background: rgb(191, 190, 190);
+  align-items: center;
+  justify-content: center;
 }
 
-#searchbar:nth-child(2n) {
-  margin-left: 200px;
-  padding-left: 200px;
-  position: relative;
-  left: 500px;
-}
-#searchbar:nth-child(3n) {
+#search2 {
   margin-left: 20px;
-  padding-left: 200px;
+  padding-left: 20px;
+  position: absolute;
+  height: 40px;
+  width: 210px;
+  left: 30px;
+  border: solid 1px rgb(191, 190, 190);
+}
+#search3 {
+  display: flex;
+  margin-left: 20px;
+  position: absolute;
+  background: rgb(189, 189, 189);
+  height: 42px;
+  left: 261px;
+  border-radius: 0px 10px 10px 0px;
+  width: 100px;
+  justify-content: center;
+  background-color: rgb(43, 43, 255);
+  color: white;
+  border: solid 1px rgb(191, 190, 190);
+}
+
+#information {
+  display: flex;
+  margin-top: 20px;
+  font-size: 15px;
+  width: 100%;
+}
+#information1 {
+  height: 20px;
+  margin-right: 15px;
+}
+
+#information2 {
+  height: 20px;
+}
+
+#filtre {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.filtre {
+  display: flex;
+  margin: 0px 10px;
   position: relative;
-  left: 500px;
+  height: 40px;
+  width: 200px;
+}
+
+.filtre1 {
+  display: flex;
+  margin-right: 10px;
+  background: rgb(68, 68, 255);
+  height: 42px;
+  width: 42px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.filtre2 {
+  display: flex;
+  position: absolute;
+  /* left: 20px; */
+  height: 40px;
+  padding: 0px 20px 0px 50px;
+  border: solid 1px rgb(191, 190, 190);
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 30px;
 }

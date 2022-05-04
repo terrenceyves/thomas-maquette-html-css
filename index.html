@@ -1,43 +1,68 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
-    <title>Booki</title>
-    <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-    <header>
-      <div>
-        <img id="logo" src="./assets/logo/Booki.png" alt="Logo" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Booki</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img id="logo" src="./assets/logo/Booki.png" alt="Logo" />
+    </div>
+    <nav>
+      <ul id="navbar">
+        <li>
+          <a href="#">Hébergement</a>
+        </li>
+        <li>
+          <a href="#">Activités</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <p>En plein centre ville ou en pleine nature</p>
+      <div id="searchbar">
+        <p id="search1">&#9906;</p>
+        <form action="/action.php" method=post">
+          <input type="text" id="search2" placeholder="Marseille, France 2">
+        </form>
+        <input type="submit" id="search3" value="Rechercher">
       </div>
-      <nav>
-        <ul id="navbar">
-          <li>
-            <a href="#">Hébergement</a>
-          </li>
-          <li>
-            <a href="#">Activités</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        <div id="searchbar">
-            <p>&#9906;</p>
-            <form action="/action.php" method=post">
-                <input type="text" placeholder="Marseille, France 2">
-            </form>
-            <input type="submit" value="Rechercher">
+      <div id="filtre">
+        <div class="filtre" id="filtre1">
+          <p>Filtres</p>
+        </div>
+        <div class="filtre" id="filtre2">
+          <i class="filtre1" id="fitre21">&#9906;</i>
+          <p class="filtre2" id="filtre22">Économique</p>
+        </div>
+        <div class="filtre" id="filtre3">
+          <i class="filtre1" id="filtre31">&#9906;</i>
+          <p class="filtre2" id="Familial">Familial</p>
+        </div>
+        <div class="filtre" id="filtre4">
+          <i class="filtre1" id="filtre41">&#9906;</i>
+          <p class="filtre2" id="filtre42">Romantique</p>
+        </div>
+        <div class="filtre" id="filtre5">
+          <i class="filtre1" id="filtre51">&#9906;</i>
+          <p class="filtre2" id="filtre52">Animaux autorisés</p>
         </div>
       </div>
-    </main>
-  </body>
+      <div id="information">
+        <i id="information1">&#9906;</i>
+        <p id="information2">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </div>
+  </main>
+</body>
+
 </html>
