@@ -7,15 +7,20 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 header {
+  width: 2412px;
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
 main {
-  padding: 0px 90px;
+  width: 2412px;
 }
 
 h1 {
@@ -29,6 +34,14 @@ h2 {
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 ul {
@@ -203,78 +216,115 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  width: 2412px;
+  height: 1125px;
 }
 
 .hebergement {
   display: flex;
   flex-direction: column;
   background: #f2f2f2;
-  border-radius: 13px;
+  border-radius: 35px;
   width: 1584px;
-  height: 1250px;
-  padding: 34px;
+  height: 1125px;
+}
+
+#hebergementtitre {
+  margin: 85px 0px 15px 65px;
 }
 
 #cardshebergement {
   display: flex;
-  flex-direction: column;
-  height: 75%;
-  width: 1574px;
-  display: flex;
-}
-
-#hebergementlign1 {
-  display: flex;
   flex-direction: row;
-  height: 50%;
-  width: 1522px;
-}
-
-#hebergementlign2 {
+  flex-wrap: wrap;
+  height: 810px;
+  width: 1584px;
   display: flex;
-  flex-direction: row;
-  height: 50%;
-  width: 1522px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .populaire {
   background: #f2f2f2;
-  border-radius: 13px;
-  width: 23%;
+  border-radius: 35px;
+  width: 756px;
   display: flex;
   flex-direction: column;
-  padding: 20px 40px;
+  padding: 0px 67px;
+  margin-left: 73px;
 }
 
 .carhebergement {
   background: white;
-  margin: 34px;
+  margin: 31px;
   width: 445px;
-  height: 400px;
+  height: 360px;
   z-index: 3;
   font-size: 13px;
-  border-radius: 15px;
+  border-radius: 35px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#imgcardhebergement1 {
+  margin: 9px;
+  background-position: 30% 50%;
+  background-image: url("./assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+#imgcardhebergement2 {
+  margin: 9px;
+  background-position: 90% 70%;
+  background-image: url("./assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+}
+
+#imgcardhebergement3 {
+  margin: 9px;
+  background-position: 60% 80%;
+  background-image: url("./assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+
+#imgcardhebergement4 {
+  margin: 9px;
+  background-position: 100% 60%;
+  background-image: url("./assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+}
+
+#imgcardhebergement5 {
+  margin: 9px;
+  background-position: center;
+  background-image: url("./assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+
+#imgcardhebergement6 {
+  margin: 9px;
+  background-position: 70% 55%;
+  background-image: url("./assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .imgcardhebergement {
   width: 427px;
   height: 230px;
-  margin: 10px;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 35px 35px 0px 0px;
+}
+#footercardsheb {
+  margin: 80px 65px;
 }
 
 .textcardshebergement {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 2px;
+  font-size: 20px;
 }
 
 #cardspopulaire {
   display: flex;
   flex-direction: column;
-  height: 85%;
+  height: 1125px;
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
 #titrepopulaire {
   display: flex;
@@ -282,18 +332,169 @@ a {
   justify-content: space-between;
 }
 
+#populairetitre {
+  margin: 85px 0px 15px 65px;
+}
+
 .cardpopulaire {
   display: flex;
   flex-direction: row;
   background: white;
-  height: 30%;
-  border-radius: 15px;
+  height: 261px;
+  width: 616px;
+  border-radius: 35px;
   align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .imgcardpopulaire {
-  width: 40%;
-  height: 96%;
-  padding: 2%;
-  border-radius: 15px 0px 0px 15px;
+  width: 230px;
+  height: 241px;
+  border-radius: 35px 0px 0px 35px;
+}
+
+#imgcardpopulaire1 {
+  margin: 9px;
+  background-position: center;
+  background-image: url("./assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+}
+
+#imgcardpopulaire2 {
+  margin: 9px;
+  background-position: bottom;
+  background-image: url("./assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+}
+
+#imgcardpopulaire3 {
+  margin: 9px;
+  background-position: center;
+  background-image: url("./assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+}
+
+.descriptioncardspopulaire {
+  height: 241px;
+  padding-top: 60px;
+}
+
+.textcardspopulaire {
+  padding-left: 20px;
+  padding-bottom: 2px;
+  font-size: 20px;
+}
+
+#starspopulaire {
+  margin-top: 105px;
+}
+
+@media (max-width: 2420px) {
+  /* .hebergementpopulaire {
+    flex-direction: column;
+  } */
+  header {
+    width: 1904px;
+  }
+  main {
+    width: 1904px;
+  }
+  .hebergementpopulaire {
+    width: 1205px;
+    height: 1547px;
+  }
+  .hebergement {
+    width: 1077px;
+    height: 1547px;
+  }
+  #cardshebergement {
+    height: 1232px;
+    width: 1077px;
+  }
+}
+
+@media (max-width: 1910px) {
+  /* .hebergementpopulaire {
+    flex-direction: column;
+  } */
+  header {
+    width: 1397px;
+  }
+  main {
+    width: 1397px;
+  }
+  .hebergementpopulaire {
+    width: 698px;
+    height: 1969px;
+  }
+  .hebergement {
+    width: 570px;
+    height: 2983px;
+  }
+  #cardshebergement {
+    width: 570px;
+    height: 2668px;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* .hebergementpopulaire {
+    flex-direction: column;
+  } */
+  header {
+    width: 1397px;
+  }
+  main {
+    width: 1397px;
+  }
+  .hebergementpopulaire {
+    width: 698px;
+    height: 1969px;
+  }
+  .hebergement {
+    width: 570px;
+    height: 2983px;
+  }
+  #cardshebergement {
+    width: 570px;
+    height: 2668px;
+  }
+  .populaire {
+    background: #f2f2f2;
+    border-radius: 35px;
+    width: 570px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    margin-left: 30px;
+  }
+  #cardspopulaire {
+    display: flex;
+    flex-direction: column;
+    height: 1125px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cardpopulaire {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 200px;
+    width: 445px;
+    border-radius: 35px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  .imgcardpopulaire {
+    height: 185px;
+    width: 205px;
+  }
+  .descriptioncardspopulaire {
+    padding: 0px;
+    height: 81px;
+    padding-bottom: 30px;
+  }
+  #starspopulaire {
+    margin-top: 10px;
+  }
 }
