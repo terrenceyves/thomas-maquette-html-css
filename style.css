@@ -13,14 +13,16 @@ body {
   align-items: center;
 }
 header {
-  width: 2412px;
+  width: 1440px;
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
 
 main {
-  width: 2412px;
+  width: 1340px;
+  height: 1884px;
+  margin: 50px;
 }
 
 h1 {
@@ -216,8 +218,7 @@ a {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  width: 2412px;
-  height: 1125px;
+  height: 626px;
 }
 
 .hebergement {
@@ -225,88 +226,82 @@ a {
   flex-direction: column;
   background: #f2f2f2;
   border-radius: 35px;
-  width: 1584px;
-  height: 1125px;
+  width: 880px;
+  height: 626px;
 }
 
 #hebergementtitre {
-  margin: 85px 0px 15px 65px;
+  margin: 47px 0px 15px 40px;
 }
 
 #cardshebergement {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 810px;
-  width: 1584px;
+  width: 880px;
+  height: 626px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
 }
 
 .populaire {
   background: #f2f2f2;
   border-radius: 35px;
-  width: 756px;
+  width: 420px;
+  height: 626px;
   display: flex;
   flex-direction: column;
-  padding: 0px 67px;
-  margin-left: 73px;
 }
 
 .carhebergement {
   background: white;
-  margin: 31px;
-  width: 445px;
-  height: 360px;
+  width: 246px;
+  margin: 15px;
+  height: 199px;
   z-index: 3;
   font-size: 13px;
-  border-radius: 35px;
+  border-radius: 22px;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 #imgcardhebergement1 {
-  margin: 9px;
   background-position: 30% 50%;
   background-image: url("./assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 }
 
 #imgcardhebergement2 {
-  margin: 9px;
   background-position: 90% 70%;
   background-image: url("./assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 }
 
 #imgcardhebergement3 {
-  margin: 9px;
   background-position: 60% 80%;
   background-image: url("./assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 }
 
 #imgcardhebergement4 {
-  margin: 9px;
   background-position: 100% 60%;
   background-image: url("./assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 }
 
 #imgcardhebergement5 {
-  margin: 9px;
   background-position: center;
   background-image: url("./assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 }
 
 #imgcardhebergement6 {
-  margin: 9px;
   background-position: 70% 55%;
   background-image: url("./assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .imgcardhebergement {
-  width: 427px;
-  height: 230px;
-  border-radius: 35px 35px 0px 0px;
+  width: 236px;
+  height: 119px;
+  border-radius: 20px 20px 0px 0px;
+  margin: 5px;
 }
+
 #footercardsheb {
   margin: 80px 65px;
 }
@@ -320,11 +315,9 @@ a {
 #cardspopulaire {
   display: flex;
   flex-direction: column;
-  height: 1125px;
+  width: 420px;
+  height: 626px;
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  padding-bottom: 50px;
 }
 #titrepopulaire {
   display: flex;
@@ -333,47 +326,51 @@ a {
 }
 
 #populairetitre {
-  margin: 85px 0px 15px 65px;
+  margin: 47px 0px 15px 40px;
+}
+
+#etoiletitre {
+  margin-right: 40px;
+  margin-top: 30px;
 }
 
 .cardpopulaire {
   display: flex;
   flex-direction: row;
   background: white;
-  height: 261px;
-  width: 616px;
-  border-radius: 35px;
+  width: 343px;
+  height: 144px;
+  margin: 16px 37px;
+  border-radius: 22px;
   align-items: center;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .imgcardpopulaire {
-  width: 230px;
-  height: 241px;
-  border-radius: 35px 0px 0px 35px;
+  width: 127px;
+  height: 134px;
+  margin: 5px;
+  border-radius: 18px 0px 0px 18px;
 }
 
 #imgcardpopulaire1 {
-  margin: 9px;
   background-position: center;
   background-image: url("./assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 }
 
 #imgcardpopulaire2 {
-  margin: 9px;
   background-position: bottom;
   background-image: url("./assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
 }
 
 #imgcardpopulaire3 {
-  margin: 9px;
   background-position: center;
   background-image: url("./assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 }
 
 .descriptioncardspopulaire {
-  height: 241px;
-  padding-top: 60px;
+  width: 210px;
+  height: 134px;
 }
 
 .textcardspopulaire {
@@ -386,12 +383,12 @@ a {
   margin-top: 105px;
 }
 
-@media (max-width: 2420px) {
-  /* .hebergementpopulaire {
+/* @media (max-width: 2420px) { */
+/* .hebergementpopulaire {
     flex-direction: column;
   } */
-  header {
-    width: 1904px;
+/* header { */
+/* width: 1904px;
   }
   main {
     width: 1904px;
@@ -408,13 +405,13 @@ a {
     height: 1232px;
     width: 1077px;
   }
-}
+} */
 
-@media (max-width: 1910px) {
+/* @media (max-width: 1910px) {
   /* .hebergementpopulaire {
     flex-direction: column;
   } */
-  header {
+/* header {
     width: 1397px;
   }
   main {
@@ -431,14 +428,13 @@ a {
   #cardshebergement {
     width: 570px;
     height: 2668px;
-  }
-}
+  } */
 
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
   /* .hebergementpopulaire {
     flex-direction: column;
   } */
-  header {
+/* header {
     width: 1397px;
   }
   main {
@@ -455,8 +451,8 @@ a {
   #cardshebergement {
     width: 570px;
     height: 2668px;
-  }
-  .populaire {
+  } */
+/* .populaire {
     background: #f2f2f2;
     border-radius: 35px;
     width: 570px;
@@ -474,8 +470,8 @@ a {
     justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 50px;
-  }
-  .cardpopulaire {
+  } */
+/* .cardpopulaire {
     display: flex;
     flex-direction: row;
     background: white;
@@ -496,5 +492,4 @@ a {
   }
   #starspopulaire {
     margin-top: 10px;
-  }
-}
+  } */
