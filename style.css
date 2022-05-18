@@ -18,13 +18,18 @@
   src: url("./assets/fonts/Raleway-ExtraBold.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("./assets/fonts/Raleway-Medium.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway-Medium", sans-serif;
   font-size: 11px;
   display: flex;
   flex-direction: column;
@@ -32,7 +37,7 @@ body {
   align-items: center;
 }
 header {
-  font-family: "Raleway-Regular", sans-serif;
+  font-family: "Raleway-Medium", sans-serif;
   width: 992px;
   /* max-width: 992px; */
   display: flex;
@@ -46,15 +51,6 @@ main {
   max-width: 992px;
   /* background-color: rgba(0, 0, 255, 0.327); */
 }
-
-/* footer {
-  background: #ccc;
-  position: absolute;
-  bottom: 0;
-  width: 992px;
-  padding-top: 50px;
-  height: 50px;
-} */
 
 ::placeholder {
   font-family: "Raleway-ExtraBold";
@@ -88,6 +84,11 @@ h4 {
   font-family: "Raleway-ExtraBold";
   font-size: 13px;
   margin-bottom: 3px;
+}
+
+h4 {
+  font-family: "Raleway-ExtraBold";
+  font-size: 14px;
 }
 
 ul {
@@ -459,26 +460,157 @@ a {
 .activites {
   margin-top: 46px;
   width: 992px;
-  background-color: rgba(255, 0, 0, 0.1);
 }
 .blocsactivites {
+  display: flex;
+  justify-content: space-between;
   margin-top: 18px;
   width: 992px;
   height: 329px;
 }
 
-#bloc1 {
+.nomsblocs {
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+#blocactivites1 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
   height: 329px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 #activitesimg1 {
+  border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 288px;
   background-position: center;
   background-image: url("./assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+}
+
+#blocactivites2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 223px;
+  height: 329px;
+}
+
+#blocactivites21 {
+  background-color: white;
+  border-radius: 15px;
+  width: 223px;
+  height: 174px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#activitesimg21 {
+  border-radius: 15px 15px 0px 0px;
+  width: 223px;
+  height: 133px;
+  background-position: center;
+  background-image: url("./assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+}
+
+#blocactivites22 {
+  background-color: white;
+  border-radius: 15px;
+  width: 223px;
+  height: 122px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#activitesimg22 {
+  border-radius: 15px 15px 0px 0px;
+  width: 223px;
+  height: 81px;
+  background-position: center;
+  background-image: url("./assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+}
+
+#blocactivites3 {
+  background-color: white;
+  border-radius: 15px;
+  width: 223px;
+  height: 329px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#activitesimg3 {
+  border-radius: 15px 15px 0px 0px;
+  width: 223px;
+  height: 288px;
+  background-position: center;
+  background-image: url("./assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+}
+
+#blocactivites4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 223px;
+  height: 329px;
+}
+
+#blocactivites41 {
+  background-color: white;
+  border-radius: 15px;
+  width: 223px;
+  height: 144px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#activitesimg41 {
+  border-radius: 15px 15px 0px 0px;
+  width: 223px;
+  height: 103px;
+  background-position: center;
+  background-image: url("./assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+
+#blocactivites42 {
+  background-color: white;
+  border-radius: 15px;
+  width: 223px;
+  height: 155px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#activitesimg42 {
+  border-radius: 15px 15px 0px 0px;
+  width: 223px;
+  height: 113px;
+  background-position: center;
+  background-image: url("./assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+footer {
+  margin-top: 45px;
+  background: #f2f2f2;
+  width: 100%;
+  max-width: 1066px;
+  padding-top: 45px;
+  height: 161px;
+}
+.blocsfooter {
+  display: flex;
+  width: 992px;
+  margin-left: 37px;
+}
+
+.blocfooter1 {
+  margin-right: 169px;
+}
+.blocfooter2 {
+  margin-right: 216px;
+}
+.txtfooter {
+  margin-top: 20px;
+}
+.txt {
+  margin-bottom: 15px;
 }
 
 /* @media (max-width: 2420px) { */
