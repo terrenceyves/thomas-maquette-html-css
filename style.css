@@ -38,8 +38,8 @@ body {
 }
 header {
   font-family: "Raleway-Medium", sans-serif;
-  width: 992px;
-  /* max-width: 992px; */
+  width: 100%;
+  max-width: 992px;
   display: flex;
   justify-content: space-between;
   /* background-color: rgba(0, 128, 0, 0.22); */
@@ -48,6 +48,7 @@ header {
 
 main {
   width: 100%;
+
   max-width: 992px;
   /* background-color: rgba(0, 0, 255, 0.327); */
 }
@@ -474,7 +475,7 @@ a {
   margin-top: 15px;
 }
 
-#blocactivites1 {
+.blocactivites1 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -482,7 +483,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg1 {
+.activitesimg1 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 288px;
@@ -498,7 +499,7 @@ a {
   height: 329px;
 }
 
-#blocactivites21 {
+.blocactivites21 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -506,7 +507,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg21 {
+.activitesimg21 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 133px;
@@ -514,7 +515,7 @@ a {
   background-image: url("./assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 }
 
-#blocactivites22 {
+.blocactivites22 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -522,7 +523,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg22 {
+.activitesimg22 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 81px;
@@ -530,7 +531,7 @@ a {
   background-image: url("./assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 }
 
-#blocactivites3 {
+.blocactivites3 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -538,7 +539,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg3 {
+.activitesimg3 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 288px;
@@ -554,7 +555,7 @@ a {
   height: 329px;
 }
 
-#blocactivites41 {
+.blocactivites41 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -562,7 +563,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg41 {
+.activitesimg41 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 103px;
@@ -570,7 +571,7 @@ a {
   background-image: url("./assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 }
 
-#blocactivites42 {
+.blocactivites42 {
   background-color: white;
   border-radius: 15px;
   width: 223px;
@@ -578,7 +579,7 @@ a {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
-#activitesimg42 {
+.activitesimg42 {
   border-radius: 15px 15px 0px 0px;
   width: 223px;
   height: 113px;
@@ -613,113 +614,114 @@ footer {
   margin-bottom: 15px;
 }
 
-/* @media (max-width: 2420px) { */
-/* .hebergementpopulaire {
-    flex-direction: column;
-  } */
-/* header { */
-/* width: 1904px;
-  }
-  main {
-    width: 1904px;
-  }
+@media (max-width: 992px) {
   .hebergementpopulaire {
-    width: 1205px;
-    height: 1547px;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 992px;
+    height: 663px;
   }
-  .hebergement {
-    width: 1077px;
-    height: 1547px;
-  }
-  #cardshebergement {
-    height: 1232px;
-    width: 1077px;
-  }
-} */
 
-/* @media (max-width: 1910px) {
-  /* .hebergementpopulaire {
-    flex-direction: column;
-  } */
-/* header {
-    width: 1397px;
-  }
-  main {
-    width: 1397px;
-  }
-  .hebergementpopulaire {
-    width: 698px;
-    height: 1969px;
-  }
   .hebergement {
-    width: 570px;
-    height: 2983px;
-  }
-  #cardshebergement {
-    width: 570px;
-    height: 2668px;
-  } */
-
-/* @media (max-width: 1400px) {
-  /* .hebergementpopulaire {
-    flex-direction: column;
-  } */
-/* header {
-    width: 1397px;
-  }
-  main {
-    width: 1397px;
-  }
-  .hebergementpopulaire {
-    width: 698px;
-    height: 1969px;
-  }
-  .hebergement {
-    width: 570px;
-    height: 2983px;
-  }
-  #cardshebergement {
-    width: 570px;
-    height: 2668px;
-  } */
-/* .populaire {
-    background: #f2f2f2;
-    border-radius: 35px;
-    width: 570px;
-    height: 900px;
+    width: 100%;
+    max-width: 992px;
     display: flex;
-    flex-direction: column;
-    padding: 0px 30px;
-    margin-left: 30px;
+    background-color: white;
+  }
+  .populaire {
+    width: 100%;
+    max-width: 992px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
   }
   #cardspopulaire {
-    display: flex;
-    flex-direction: column;
-    height: 1125px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    padding-bottom: 50px;
-  } */
-/* .cardpopulaire {
+    width: 100%;
+    max-width: 992px;
+    height: 130px;
     display: flex;
     flex-direction: row;
-    background: white;
-    height: 200px;
-    width: 445px;
-    border-radius: 35px;
+    margin: 0px;
+    justify-content: space-around;
+  }
+
+  #cardshebergement {
+    margin: 0px;
+    width: 100%;
+    max-width: 992px;
+  }
+  .carhebergement {
+    margin: 12px 20px;
+  }
+
+  .activites {
+    margin-top: 12px;
+    width: 100%;
+    max-width: 992px;
+  }
+  .blocsactivites {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 18px;
+    width: 100%;
+    max-width: 992px;
+    height: 1400px;
   }
-  .imgcardpopulaire {
-    height: 185px;
-    width: 205px;
+  #titreactivites {
+    margin: 0px 30px;
   }
-  .descriptioncardspopulaire {
-    padding: 0px;
-    height: 81px;
-    padding-bottom: 30px;
+  #blocactivites2 {
+    align-items: center;
+    width: 100%;
+    max-width: 992px;
+    height: 400px;
+    margin-bottom: 50px;
   }
-  #starspopulaire {
-    margin-top: 10px;
-  } */
+
+  #blocactivites4 {
+    align-items: center;
+    width: 100%;
+    max-width: 992px;
+    height: 400px;
+  }
+
+  .blocactivites {
+    width: 700px;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  .activitesimg {
+    width: 700px;
+    height: 150px;
+  }
+  footer {
+    margin-top: 45px;
+    background: #f2f2f2;
+    width: 100%;
+    max-width: 1066px;
+    padding-top: 45px;
+    height: 161px;
+  }
+  .blocsfooter {
+    display: flex;
+    width: 100%;
+    max-width: 992px;
+    margin-left: 37px;
+  }
+
+  .blocfooter1 {
+    margin-right: 119px;
+  }
+  .blocfooter2 {
+    margin-right: 166px;
+  }
+  .txtfooter {
+    margin-top: 20px;
+  }
+  .txt {
+    margin-bottom: 15px;
+  }
+}
