@@ -106,16 +106,37 @@ a {
   margin-left: 15px;
   height: 35px;
 }
+#blocnavbar {
+  width: 257px;
+  padding-right: 21px;
+}
 #navbar {
-  margin-top: 35px;
-  margin-right: 20px;
   font-size: 12px;
   display: flex;
   flex-direction: row;
   overflow: hidden;
   font-size: 15px;
-  width: 178px;
-  justify-content: space-between;
+  width: 300px;
+  justify-content: space-around;
+}
+
+#hebergementnav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 35px;
+}
+#hebergementnav:hover {
+  border-top: solid 2px #0065fc;
+}
+#activitesnav {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 35px;
+}
+#activitesnav:hover {
+  border-top: solid 2px #0065fc;
 }
 
 #titre {
@@ -717,6 +738,262 @@ footer {
   }
   .blocfooter2 {
     margin-right: 166px;
+  }
+  .txtfooter {
+    margin-top: 20px;
+  }
+  .txt {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 100%;
+
+    max-width: 768px;
+    /* background-color: rgba(0, 0, 255, 0.327); */
+  }
+  header {
+    font-family: "Raleway-Medium", sans-serif;
+    width: 100%;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 128, 0, 0.22); */
+    /* align-items: center; */
+  }
+
+  #logo {
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 40px;
+  }
+  #navbar {
+    margin-right: 0px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    font-size: 15px;
+    width: 100%;
+    max-width: 768px;
+    justify-content: space-around;
+  }
+  #blocnavbar {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  #hebergementnav {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #f2f2f2;
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  #hebergementnav:hover {
+    border-bottom: solid 2px #0065fc;
+    border-top: none;
+  }
+
+  #activitesnav {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #f2f2f2;
+    width: 50%;
+    padding-top: 15px;
+  }
+  #activitesnav:hover {
+    border-bottom: solid 2px #0065fc;
+    border-top: none;
+  }
+
+  #titre {
+    margin-left: 4px;
+    margin-top: 21px;
+  }
+
+  .hebergementpopulaire {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    height: 1573px;
+  }
+  .populaire {
+    width: 100%;
+    max-width: 768px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  #cardspopulaire {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 768px;
+    align-items: center;
+    height: 400px;
+    justify-content: flex-start;
+    margin-top: 200px;
+  }
+  .cardpopulaire {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 90%;
+    max-width: 454px;
+    min-width: 224px;
+    height: 106px;
+    margin: 12px 0px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+  .imgcardpopulaire {
+    width: 114px;
+    height: 98px;
+    margin: 4px;
+    border-radius: 13px 0px 0px 13px;
+  }
+  #filtre {
+    font-family: "Raleway-ExtraBold";
+    color: black;
+    font-size: 13px;
+    display: flex;
+    width: 100%;
+    min-width: 301px;
+    height: 130px;
+    margin-top: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  #filtre1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hebergement {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 768px;
+    min-width: 224px;
+    height: 1263px;
+  }
+
+  .carhebergement {
+    background: white;
+    width: 90%;
+    max-width: 454px;
+    min-width: 224px;
+    height: 106px;
+    margin: 12px;
+    height: 147px;
+    z-index: 3;
+    font-size: 13px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  #cardshebergement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 768px;
+    min-width: 224px;
+    height: 1038px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+  .imgcardhebergement {
+    margin: 3px auto;
+    width: 98%;
+    max-width: 454px;
+    min-width: 224px;
+    height: 84px;
+    border-radius: 14px 14px 0px 0px;
+  }
+  .blocsactivites {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    width: 100%;
+    max-width: 768px;
+    min-width: 224px;
+    height: 1038px;
+  }
+  .blocactivites {
+    width: 90%;
+    max-width: 454px;
+    min-width: 224px;
+    height: 106px;
+    margin: 12px;
+    height: 147px;
+  }
+  .activitesimg {
+    margin: 3px auto;
+    width: 98%;
+    max-width: 454px;
+    min-width: 224px;
+    height: 84px;
+  }
+  #blocactivites2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 768px;
+    min-width: 224px;
+    height: 329px;
+    margin-bottom: 0px;
+  }
+  #blocactivites4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 768px;
+    min-width: 224px;
+    height: 329px;
+    margin-bottom: 0px;
+  }
+  footer {
+    margin-top: 25px;
+    background: #f2f2f2;
+    width: 100%;
+    max-width: 768px;
+    padding-top: 45px;
+    height: 364px;
+  }
+  .blocsfooter {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    margin-left: 37px;
+  }
+
+  .blocfooter1 {
+    margin-right: 119px;
+    margin-bottom: 20px;
+  }
+  .blocfooter2 {
+    margin-right: 166px;
+    margin-bottom: 20px;
+  }
+  .blocfooter3 {
+    margin-right: 166px;
+    margin-bottom: 20px;
   }
   .txtfooter {
     margin-top: 20px;
