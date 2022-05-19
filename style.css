@@ -108,7 +108,6 @@ a {
 }
 #blocnavbar {
   width: 257px;
-  padding-right: 21px;
 }
 #navbar {
   font-size: 12px;
@@ -768,7 +767,7 @@ footer {
   #logo {
     margin-top: 18px;
     margin-left: 20px;
-    height: 40px;
+    height: 45px;
   }
   #navbar {
     margin-right: 0px;
@@ -787,6 +786,7 @@ footer {
   }
 
   #hebergementnav {
+    font-size: 17px;
     display: flex;
     justify-content: center;
     border-bottom: solid 2px #f2f2f2;
@@ -805,6 +805,7 @@ footer {
     border-bottom: solid 2px #f2f2f2;
     width: 50%;
     padding-top: 15px;
+    font-size: 17px;
   }
   #activitesnav:hover {
     border-bottom: solid 2px #0065fc;
@@ -820,15 +821,21 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-direction: column-reverse;
-    height: 1573px;
+    height: 1630px;
   }
   .populaire {
     width: 100%;
     max-width: 768px;
-    height: 480px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    position: relative;
+  }
+  #titrepopulaire {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    z-index: 5;
   }
   #cardspopulaire {
     display: flex;
@@ -838,7 +845,6 @@ footer {
     align-items: center;
     height: 400px;
     justify-content: flex-start;
-    margin-top: 200px;
   }
   .cardpopulaire {
     display: flex;
@@ -858,6 +864,16 @@ footer {
     margin: 4px;
     border-radius: 13px 0px 0px 13px;
   }
+  .filtre {
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 200px;
+    justify-content: flex-start;
+    margin-right: 28px;
+    margin-bottom: 5px;
+  }
   #filtre {
     font-family: "Raleway-ExtraBold";
     color: black;
@@ -865,17 +881,42 @@ footer {
     display: flex;
     width: 100%;
     min-width: 301px;
-    height: 130px;
+    height: 150px;
     margin-top: 28px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-weight: bold;
     align-items: flex-start;
     flex-wrap: wrap;
   }
   #filtre1 {
+    font-size: 15px;
     width: 100%;
     margin-bottom: 10px;
   }
+  #filtre22 {
+    width: 113px;
+  }
+  #familial {
+    width: 78px;
+  }
+  #information {
+    margin-left: 20px;
+    display: flex;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+  }
+  #information1 {
+    width: 30px;
+    height: 20px;
+    font-size: 14px;
+  }
+  #information2 {
+    font-size: 17px;
+  }
+
   .hebergement {
     display: flex;
     flex-direction: column;
@@ -1000,5 +1041,23 @@ footer {
   }
   .txt {
     margin-bottom: 15px;
+  }
+  #titre {
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 21px;
+  }
+  h1 {
+    font-family: "Raleway-ExtraBold";
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  #searchbar {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 20px;
+    border-spacing: 50px;
+    height: 36px;
   }
 }
